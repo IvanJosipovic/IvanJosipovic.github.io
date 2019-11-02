@@ -3,7 +3,7 @@
     <title>Ivans Blog</title>
     <link href="https://IvanJosipovic.github.io/feed.xml" rel="self" />
     <link href="https://IvanJosipovic.github.io" />
-    <updated>2019-11-02T15:46:53-07:00</updated>
+    <updated>2019-11-02T15:52:30-07:00</updated>
     <author>
         <name>Ivan Josipovic</name>
     </author>
@@ -17,9 +17,10 @@
         <link href="https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html"/>
         <id>https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html</id>
 
-        <updated>2019-11-02T15:46:42-07:00</updated>
+        <updated>2019-11-02T15:52:25-07:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-15_39_11-NuGet-Gallery-_-RazorClassLibrary-0.0.2-alpha2.png" alt="" />
                     <p>So, you have a Blazor Component that you would like to publish to Nuget?</p>
 <p>This guide will show you how to create a GitHub Action which triggers on a Git Tag and publishes the Blazor Component to Nuget.</p>
 
@@ -27,6 +28,7 @@
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-15_39_11-NuGet-Gallery-_-RazorClassLibrary-0.0.2-alpha2.png" alt="" />
                 <p>So, you have a Blazor Component that you would like to publish to Nuget?</p>
 <p>This guide will show you how to create a GitHub Action which triggers on a Git Tag and publishes the Blazor Component to Nuget.</p>
 
