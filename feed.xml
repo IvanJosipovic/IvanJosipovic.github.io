@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Ivans Blog</title>
+    <link href="https://IvanJosipovic.github.io/feed.xml" rel="self" />
+    <link href="https://IvanJosipovic.github.io" />
+    <updated>2019-11-02T13:56:12-07:00</updated>
+    <author>
+        <name>Ivan Josipovic</name>
+    </author>
+    <id>https://IvanJosipovic.github.io</id>
+
+    <entry>
+        <title>Publish Blazor Component to Nuget with Github Actions</title>
+        <author>
+            <name>Ivan Josipovic</name>
+        </author>
+        <link href="https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html"/>
+        <id>https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html</id>
+
+        <updated>2019-11-02T13:53:29-07:00</updated>
+            <summary>
+                <![CDATA[
+                    So, you have a Blazor Component in Github that you would like to publish to Nuget? 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>So, you have a Blazor Component in Github that you would like to publish to Nuget?</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+</feed>

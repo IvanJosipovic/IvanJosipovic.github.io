@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Ivans Blog",
+    "description": "",
+    "home_page_url": "https://IvanJosipovic.github.io",
+    "feed_url": "https://IvanJosipovic.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Ivan Josipovic"
+    },
+    "items": [
+        {
+            "id": "https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html",
+            "url": "https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html",
+            "title": "Publish Blazor Component to Nuget with Github Actions",
+            "summary": "So, you have a Blazor Component in Github that you would like to publish to Nuget? ",
+            "content_html": "<p>So, you have a Blazor Component in Github that you would like to publish to Nuget?</p>\n<p> </p>",
+            "author": {
+                "name": "Ivan Josipovic"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-11-02T13:29:09-07:00",
+            "date_modified": "2019-11-02T13:53:29-07:00"
+        }
+    ]
+}
