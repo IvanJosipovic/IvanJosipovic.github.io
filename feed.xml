@@ -3,7 +3,7 @@
     <title>Ivans Blog</title>
     <link href="https://IvanJosipovic.github.io/feed.xml" rel="self" />
     <link href="https://IvanJosipovic.github.io" />
-    <updated>2019-11-02T16:00:25-07:00</updated>
+    <updated>2019-11-02T16:14:51-07:00</updated>
     <author>
         <name>Ivan Josipovic</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html"/>
         <id>https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html</id>
 
-        <updated>2019-11-02T15:52:25-07:00</updated>
+        <updated>2019-11-02T16:14:44-07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-15_39_11-NuGet-Gallery-_-RazorClassLibrary-0.0.2-alpha2.png" alt="" />
@@ -52,11 +52,11 @@
 <p>Edit the RazorClassLibrary.csproj and make sure it contains the following:<img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-14_29_52-RazorClassLibrary-Microsoft-Visual-Studio-Preview.png" alt="" width="889" height="463"></p>
 <p>Push the code to your GitHub repository.</p>
 <h2 id="mcetoc_1don1j07h3">Nuget.org Account and API Key</h2>
-<p>Go to <a href="https://www.nuget.org/">https://www.nuget.org/ </a>and create an account.</p>
-<p>Once you're logged in, click on your username in the top right then click on "API Keys".</p>
-<p> <img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-14_51_08-NuGet-Gallery-_-API-Keys.png" alt="" width="696" height="538"></p>
+<p>Go to <a href="https://www.nuget.org/">https://www.nuget.org </a>and create an account.</p>
+<p>Once you're logged in, click on your username in the top right, then click on "API Keys".</p>
+<p><img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-14_51_08-NuGet-Gallery-_-API-Keys.png" alt="" width="696" height="538"></p>
 <p>Enter a Key Name and Glob Pattern, then click Create. <br><img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-14_54_01-NuGet-Gallery-_-API-Keys.png" alt="" width="1186" height="924"></p>
-<p> Click Copy and save the key to safe place, well need it in the next step.<img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-14_56_31-NuGet-Gallery-_-API-Keys.png" alt="" width="1180" height="355"></p>
+<p>Click Copy and save the key to safe place, well need it in the next step.<img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-14_56_31-NuGet-Gallery-_-API-Keys.png" alt="" width="1180" height="355"></p>
 <p> </p>
 <h2 id="mcetoc_1don21v444">GitHub Secret</h2>
 <p>In your GitHub repository, click on Settings, then click on Secrets.</p>
