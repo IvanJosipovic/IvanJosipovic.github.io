@@ -3,7 +3,7 @@
     <title>Ivans Blog</title>
     <link href="https://IvanJosipovic.github.io/feed.xml" rel="self" />
     <link href="https://IvanJosipovic.github.io" />
-    <updated>2019-11-02T19:02:29-07:00</updated>
+    <updated>2019-12-09T19:16:51-08:00</updated>
     <author>
         <name>Ivan Josipovic</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html"/>
         <id>https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html</id>
 
-        <updated>2019-11-02T16:14:44-07:00</updated>
+        <updated>2019-12-09T19:16:44-08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-15_39_11-NuGet-Gallery-_-RazorClassLibrary-0.0.2-alpha2.png" alt="" />
@@ -42,13 +42,13 @@
 <li>Create a Tag and Trigger a Release</li>
 </ol>
 <h2 id="mcetoc_1don1dqpr0">GitHub Repository</h2>
-<p>In this example, we will use the following repostory, <a href="https://github.com/IvanJosipovic/Demo01">https://github.com/IvanJosipovic/Demo01</a></p>
-<p>Clone the repo you created and remeber the location, in our case its "C:\Repos\IvanJosipovic\Demo01"</p>
+<p>In this example, we will use the following repository, <a href="https://github.com/IvanJosipovic/Demo01">https://github.com/IvanJosipovic/Demo01</a></p>
+<p>Clone the repo you created and remember the location, in our case its "C:\Repos\IvanJosipovic\Demo01"</p>
 <h2 id="mcetoc_1don1fqcd2">Blazor Component Project</h2>
 <p>In Visual Studio, lets create a "Razor Class Library" Project.</p>
 <p><img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-14_17_31-Microsoft-Visual-Studio2.png" alt="" width="1238" height="710"></p>
 <p>Enter a Project Name, set the location of your cloned repository, then click Create.<img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-14_21_35-Microsoft-Visual-Studio.png" alt="" width="1024" height="710"></p>
-<p>Click Create.<br><strong>Note:</strong> "Support pages and views" is needed if the project will use legacy .cshtml views.<img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-14_22_54-.png" alt="" width="1024" height="710"></p>
+<p>Click Create.<br><strong>Note:</strong> "Support pages and views" is only needed if the project will use legacy .cshtml views.<img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-14_22_54-.png" alt="" width="1024" height="710"></p>
 <p>Edit the RazorClassLibrary.csproj and make sure it contains the following:<img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-14_29_52-RazorClassLibrary-Microsoft-Visual-Studio-Preview.png" alt="" width="889" height="463"></p>
 <p>Push the code to your GitHub repository.</p>
 <h2 id="mcetoc_1don1j07h3">Nuget.org Account and API Key</h2>
