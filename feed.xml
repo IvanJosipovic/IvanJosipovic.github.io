@@ -3,7 +3,7 @@
     <title>Ivans Blog</title>
     <link href="https://IvanJosipovic.github.io/feed.xml" rel="self" />
     <link href="https://IvanJosipovic.github.io" />
-    <updated>2019-12-09T19:16:51-08:00</updated>
+    <updated>2019-12-09T19:24:42-08:00</updated>
     <author>
         <name>Ivan Josipovic</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html"/>
         <id>https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html</id>
 
-        <updated>2019-12-09T19:16:44-08:00</updated>
+        <updated>2019-12-09T19:24:37-08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-15_39_11-NuGet-Gallery-_-RazorClassLibrary-0.0.2-alpha2.png" alt="" />
@@ -71,7 +71,7 @@
 <p>In Visual Studio, perform a Git Fetch as we have pushed changes to our master branch.</p>
 <p>In Visual Studio Team Explorer, click on Tags.</p>
 <p><img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-15_26_57-Demo01-Microsoft-Visual-Studio-Preview.png" alt="" width="588" height="591"></p>
-<p>Enter a Tag named v0.0.2-alpha, then click Create Tag.</p>
+<p>Click on New Tag then enter "v0.0.2-alpha", then click Create Tag.</p>
 <p><strong>Note: Tags names must be in "v*" format to Trigger the release<br>Note: </strong>The Nuget Version will be the Tag name without the "v", eg. 0.0.2-alpha</p>
 <p><img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-15_29_59-OneNote.png" alt="" width="568" height="461"></p>
 <p>Select Tag v0.0.2-alpha, then right click on it and select Push.</p>
