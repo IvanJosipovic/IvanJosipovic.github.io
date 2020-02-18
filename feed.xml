@@ -3,12 +3,37 @@
     <title>Ivans Blog</title>
     <link href="https://IvanJosipovic.github.io/feed.xml" rel="self" />
     <link href="https://IvanJosipovic.github.io" />
-    <updated>2019-12-09T19:24:42-08:00</updated>
+    <updated>2020-02-17T18:09:58-08:00</updated>
     <author>
         <name>Ivan Josipovic</name>
     </author>
     <id>https://IvanJosipovic.github.io</id>
 
+    <entry>
+        <title>Enable Github &quot;Used by&quot; button on .Net Projects</title>
+        <author>
+            <name>Ivan Josipovic</name>
+        </author>
+        <link href="https://IvanJosipovic.github.io/enable-github-used-by-button-on-net-projects.html"/>
+        <id>https://IvanJosipovic.github.io/enable-github-used-by-button-on-net-projects.html</id>
+            <category term="Nuget"/>
+            <category term="GitHub"/>
+            <category term=".Net"/>
+
+        <updated>2020-02-17T18:09:52-08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://IvanJosipovic.github.io/media/posts/6/2020-02-17-17_20_34-IvanJosipovic_BlazorTable_-Blazor-Table-Component-with-Sorting-Paging-and-Filte.png" alt="" />
+                    [{"id":1555941466744,"type":"publii-paragraph","content":"Github has a fantastic new feature which can show public projects that reference your Nuget Package. This is a very useful tool to understand how your consumers are using your package.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1581989488360,"type":"publii-image","content":{"image":"https://IvanJosipovic.github.io/media/posts/6/2020-02-17-17_20_34-IvanJosipovic_BlazorTable_-Blazor-Table-Component-with-Sorting-Paging-and-Filte.png","imageHeight":269,"imageWidth":669,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1581989698546,"type":"publii-paragraph","content":"Unfortunately, for most .Net projects on Github, including my own, this feature doesn't work. An&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://IvanJosipovic.github.io/media/posts/6/2020-02-17-17_20_34-IvanJosipovic_BlazorTable_-Blazor-Table-Component-with-Sorting-Paging-and-Filte.png" alt="" />
+                [{"id":1555941466744,"type":"publii-paragraph","content":"Github has a fantastic new feature which can show public projects that reference your Nuget Package. This is a very useful tool to understand how your consumers are using your package.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1581989488360,"type":"publii-image","content":{"image":"https://IvanJosipovic.github.io/media/posts/6/2020-02-17-17_20_34-IvanJosipovic_BlazorTable_-Blazor-Table-Component-with-Sorting-Paging-and-Filte.png","imageHeight":269,"imageWidth":669,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1581989698546,"type":"publii-paragraph","content":"Unfortunately, for most .Net projects on Github, including my own, this feature doesn't work. An <a href=\"https://github.com/SteveSandersonMS/WebWindow/issues/62\" target=\"_blank\">issue on Github</a>&nbsp;encouraged me to finally look into how this feature worked. I hopped on the<a href=\"https://github.com/thangchung/awesome-dotnet-core\"> awesome-dotnet-core repo</a>, where I found the links of a number of projects that had this feature working.I compared them to my own projects and found the required components.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""},"link":{"url":"https://github.com/thangchung/awesome-dotnet-core","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false,"download":false}}},{"id":1581989984096,"type":"publii-list","content":"Required Components:<br>","config":{"listType":"ul","advanced":{"cssClasses":"","id":""}}},{"id":1581989995984,"type":"publii-list","content":"<li>Nuget Package</li><li>csproj entries</li>","config":{"listType":"ul","advanced":{"cssClasses":"","id":""}}},{"id":1581990268578,"type":"publii-paragraph","content":"Firstly, your project must be publishing a Nuget Package. My blog covers publishing Nuget packages&nbsp;<a href=\"https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html\">here</a>.&nbsp;<br><br>Secondly, there are two required entries in the csproj file that make this feature work:","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""},"link":{"url":"https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false,"download":false}}},{"id":1581990738388,"type":"publii-list","content":"<li>PackageId</li><li>RepositoryUrl</li>","config":{"listType":"ul","advanced":{"cssClasses":"","id":""}}},{"id":1581990960038,"type":"publii-paragraph","content":"PackageId should be the same as your Nuget Package Title. RepositoryUrl should be the url of your Git Repo.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1581991366788,"type":"publii-image","content":{"image":"https://IvanJosipovic.github.io/media/posts/6/2020-02-17-17_48_11-RazorClassLibrary-Microsoft-Visual-Studio.png","imageHeight":341,"imageWidth":643,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1581991377289,"type":"publii-paragraph","content":"Once your csproj is updated, push the changes to master, within 30 mins, the \"Used by\" button should appear.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1581991429607,"type":"publii-image","content":{"image":"https://IvanJosipovic.github.io/media/posts/6/2020-02-17-18_03_35-IvanJosipovic_BlazorTable_-Blazor-Table-Component-with-Sorting-Paging-and-Filte.png","imageHeight":77,"imageWidth":186,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1581991508887,"type":"publii-paragraph","content":"Enjoy!<br>","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Publish Blazor Component to Nuget with Github Actions</title>
         <author>
@@ -16,21 +41,23 @@
         </author>
         <link href="https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html"/>
         <id>https://IvanJosipovic.github.io/publish-blazor-component-to-nuget-with-github-actions.html</id>
+            <category term="GitHub Actions"/>
+            <category term="GitHub"/>
+            <category term="Blazor"/>
+            <category term=".Net"/>
 
-        <updated>2019-12-09T19:24:37-08:00</updated>
+        <updated>2020-02-17T18:02:20-08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-15_39_11-NuGet-Gallery-_-RazorClassLibrary-0.0.2-alpha2.png" alt="" />
-                    <p>So, you have a Blazor Component that you would like to publish to Nuget?</p>
-<p>This guide will show you how to create a GitHub Action which triggers on a Git Tag and publishes the Blazor Component to Nuget.</p>
+                    <p>This guide will show you how to create a GitHub Action which triggers on a Git Tag and publishes the Blazor Component to Nuget. <br><br>Please note, the process is the same for any .Net Core project type.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-15_39_11-NuGet-Gallery-_-RazorClassLibrary-0.0.2-alpha2.png" alt="" />
-                <p>So, you have a Blazor Component that you would like to publish to Nuget?</p>
-<p>This guide will show you how to create a GitHub Action which triggers on a Git Tag and publishes the Blazor Component to Nuget.</p>
+                <p>This guide will show you how to create a GitHub Action which triggers on a Git Tag and publishes the Blazor Component to Nuget. <br><br>Please note, the process is the same for any .Net Core project type.</p>
 
 <p>Steps:</p>
 <ol>
@@ -42,14 +69,15 @@
 <li>Create a Tag and Trigger a Release</li>
 </ol>
 <h2 id="mcetoc_1don1dqpr0">GitHub Repository</h2>
-<p>In this example, we will use the following repository, <a href="https://github.com/IvanJosipovic/Demo01">https://github.com/IvanJosipovic/Demo01</a></p>
+<p>In this example, we will use the following repository, <a href="https://github.com/IvanJosipovic/Demo01">https://github.com/IvanJosipovic/Dem</a><a href="https://github.com/IvanJosipovic/Demo01" style="font-family: var(--font-base); font-size: 18.4px; font-weight: var(--font-weight-normal); border-bottom: 3px solid rgba(var(--yellow), 1);">o01</a></p>
 <p>Clone the repo you created and remember the location, in our case its "C:\Repos\IvanJosipovic\Demo01"</p>
 <h2 id="mcetoc_1don1fqcd2">Blazor Component Project</h2>
 <p>In Visual Studio, lets create a "Razor Class Library" Project.</p>
 <p><img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-14_17_31-Microsoft-Visual-Studio2.png" alt="" width="1238" height="710"></p>
 <p>Enter a Project Name, set the location of your cloned repository, then click Create.<img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-14_21_35-Microsoft-Visual-Studio.png" alt="" width="1024" height="710"></p>
 <p>Click Create.<br><strong>Note:</strong> "Support pages and views" is only needed if the project will use legacy .cshtml views.<img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-14_22_54-.png" alt="" width="1024" height="710"></p>
-<p>Edit the RazorClassLibrary.csproj and make sure it contains the following:<img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2019-11-02-14_29_52-RazorClassLibrary-Microsoft-Visual-Studio-Preview.png" alt="" width="889" height="463"></p>
+<p>Edit the RazorClassLibrary.csproj and make sure it contains the following:</p>
+<p><img class="post__image" src="https://IvanJosipovic.github.io/media/posts/1/2020-02-17-17_48_11-RazorClassLibrary-Microsoft-Visual-Studio.png" alt=""></p>
 <p>Push the code to your GitHub repository.</p>
 <h2 id="mcetoc_1don1j07h3">Nuget.org Account and API Key</h2>
 <p>Go to <a href="https://www.nuget.org/">https://www.nuget.org </a>and create an account.</p>
